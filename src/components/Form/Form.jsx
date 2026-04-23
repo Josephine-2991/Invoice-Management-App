@@ -39,7 +39,7 @@ function Form() {
         {id: 2, label: "Save & Send", width: "133px", backgroundColor: "var(--secondary-purple-color)", color: "var(--gray-color)"},
      ]
   return (
-    <form className='form-main-container' for=''>
+    <form className='form-main-container' htmlFor="form-main-container">
         <h2 className='form-main-heading'>New Invoices</h2>
         <h3 className='form-bill-heading'>Bill From</h3>
 

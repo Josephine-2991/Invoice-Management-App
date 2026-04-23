@@ -2,16 +2,16 @@ import React from 'react'
 import './StatusBadge.css'
 
 function StatusBadge() {
-     const statusBadge=[ 'Draft', 'Pending', 'Paid' ]
+  const statusBadge = ['Draft', 'Pending', 'Paid']
+
   return (
     <section className='status-badge-container'>
-           { statusBadge.map((individualStatus, index)=>(
-            <div className='status-individual-badge'>
-                <input id='check-box-style' type="checkbox" />
-                <p id='c'>{individualStatus}</p>
-            </div>
-           ))} 
-        
+      {statusBadge.map((individualStatus, index) => (
+        <div className='status-individual-badge' key={index}>
+          <input id={`check-box-style-${index}`} type="checkbox" />
+          <p>{individualStatus}</p>
+        </div>
+      ))}
     </section>
   )
 }
