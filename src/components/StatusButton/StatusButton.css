@@ -1,0 +1,25 @@
+.invoice-status-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 104px;
+    height: 40px;
+    opacity: 0.5;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: var(--primary-peach-color);
+    color: var(--primary-golden-color);
+    font-weight: 700;
+   
+}
+
+.status-dot-dot {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+    background-color:var(--primary-golden-color);
+}

@@ -1,0 +1,23 @@
+.city-post-country{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.city-post-label{
+    font-size: 13px;
+    color: var(--secondary-text-color);
+    font-weight: 500;
+}
+
+.city-post-input{
+    width: 152px;
+    padding: 6px;
+    border-radius: 4px;
+    border:1px solid var(--gray-color);
+    outline: none;
+}
+
+.city-post-input:focus, .city-post-input:active, .city-post-input:hover{
+    border: 1px solid var(--secondary-purple-color);
+}

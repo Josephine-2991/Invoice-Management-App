@@ -1,0 +1,46 @@
+.invoice-bar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding: 20px 10px;
+    background-color: var(--white-color);
+    border-radius: 8px;
+    position: relative;
+    /* border: 2px solid green; */
+    
+}
+.invoice-details-container{
+    display: flex;
+    gap: 40px;
+}
+.batch-amount{
+    color:--black-color;
+}
+
+#invoice-number-prefix{
+    font-weight: 700;
+    color: var( --secondary-purple-color);
+}
+
+#customer-name-text, #due-date-text{
+    font-size: 13px;
+    color: var( --secondary-purple-color);
+}
+
+.invoice-amount-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.invoice-status-arrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    /* border: 2px solid red; */
+}

@@ -1,0 +1,49 @@
+#invoice-rectangle-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 103px;
+    height: 1000px;
+    /* height: 100%; */
+    object-fit: cover;
+    z-index: 4;
+}
+
+#invoice-group-image{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    z-index: 4;
+    width: 103px;
+    height: 103px;
+   
+}
+
+#invoice-moon-image{
+    position: absolute;
+    bottom: -30px;
+    left:40px;
+    z-index: 4;
+    width: 19.99px;
+    height: 19.9px;
+}
+
+#invoice-circular-image{
+    position: absolute;
+    bottom: -120px;
+    left: 25px;
+    z-index: 4;
+    width: 40px;
+    height: 40px;
+}
+
+#invoice-line-image{
+    border-bottom: 0.5px solid gray;
+    opacity: 0.99;
+    position: absolute;
+    bottom: -60px;
+    left: 0px;
+    z-index: 4;
+    width: 103px;
+    
+}

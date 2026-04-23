@@ -1,0 +1,41 @@
+.item-list-container{
+    display: flex;
+    gap: 20px;
+   align-items: center;
+}
+
+.invoice-item-qty{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+#item-price-label, #item-total-label, #item-qty-label{
+    font-size: 13px;
+    color: var(--secondary-purple-color);
+}
+#item-price-input, #item-total-input, #item-qty-input{
+    width: 100px;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid var(--gray-color);
+    outline: none;
+}
+
+#item-qty-input{
+    width: 46px;
+}
+
+#item-price-input{
+    width: 100px;
+}
+
+#item-total-input{
+    width: 43px;
+    border: none;
+}
+
+#item-qty-input:focus, #item-qty-input:active, #item-qty-input:hover,
+#item-price-input:focus, #item-price-input:active, #item-price-input:hover{
+    border: 1px solid var(--secondary-purple-color);
+}
